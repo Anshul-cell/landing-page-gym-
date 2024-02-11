@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anshul fit</title>
+
+    
+    
+    <style>
+        /* /* css reset we want to reset margin and padding */
+        body{
+            margin: 0px;
+            padding: 0px;
+            background:url('pics/bg3.jpg');
+            color: beige;
+            font-family: cursive;
+            
+            
+            
+        }
+        .divleft{
+            display: inline-block;
+            
+            position: absolute;
+        /* absolute means it will change position wrt its paremt here header */
+        top: -12px;
+        left: 1px;
+
+
+        }
+        .divleft img{
+
+            height: 150px;
+        }
+        .divleft div{
+            font-size: 8px;
+            
+        }
+        .middiv{
+            display: block;
+            width: 60%;
+            margin: 20px auto;
+            
+
+
+        }
+        .rightdiv{
+            
+            display: inline-block;
+            position: absolute;
+        /* absolute means it will change position wrt its paremt here header */
+        top: 26px;
+        right: 10px;
+
+        }
+        .navbar{
+            display: inline-block;
+
+        }
+        .navbar li{
+            display: inline-block;
+            
+        }
+        .navbar li a {
+            color: bisque;
+            text-decoration: none;
+            /* to remove underline of atag */
+            padding: 34px 23px;
+            font-size: 25px;
+            
+        }
+        .navbar li a:hover{
+
+            text-decoration: underline;
+            color: grey;
+            
+        }
+        .btn{
+            padding: 4px 6px;
+            margin: 4px 4px;
+            background-color: black;
+            color: beige;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            /* isse mouse pointer m bdl jaega */
+            font-family: cursive;
+
+
+        }
+        .btn :hover{
+            background-color: rgb(60, 55, 55);
+        }
+
+        .container{
+
+            
+            margin: 314px 33px;
+            padding: 7x 65px;
+            width: 33%;
+           border-radius: 10px;
+        }
+        .form-grp input{
+         text-align: center;
+         display: block;
+         width: 448px;
+         padding:1px ;
+         font-size: 25px;
+         font-family: cursive;
+         border: 2px solid black;
+         margin: 3px auto;
+
+
+        }
+
+        
+
+        </style>
+
+</head>
+
+
+
+
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="divleft">
+            <img src="/pics/bg5.png" alt="no">
+            <div> Anshul fittnes</div>
+            
+
+        </div>
+        <!-- mid box for navbaar -->
+        <div class="middiv">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a> </li>
+               <li><a href="#">About  us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+
+
+
+        </ul>
+
+        </div>
+        <!-- rigth box for buttons -->
+        <div class="rightdiv">
+            <button class="btn">call us now</button>
+            <button class="btn">Email</button>
+
+        </div>
+    </header>
+    <div class="container">
+  
+
+        <h1>JOIN NOW!</h1>
+        <form action="noaction.php ">
+            <!-- we dont have a backend over he?re so we just assume ki sara datais backend m jaega -->
+<div class="form-grp">
+    <input type="text" name="" placeholder="Enter Your Name">
+    <input type="text" name="" placeholder="Enter Your  Age"> 
+    <input type="text" name="" placeholder="Enter Your Gender">
+     <input type="text" name="" placeholder="Enter Your Phone no">
+
+
+</div>
+<button class="btn">submit</button>
+
+
+        </form>
+        
+
+
+
+
+    </div>
+
+
+
+    
+    
+</body>
+</html>
